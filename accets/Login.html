@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Login.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+</head>
+<body>
+    <nav class="Bar">
+        <div class="div1">
+            <div class="div-log"><a href="#">LOGO</a></div>
+
+            <ul>
+                  <li class="h"><a href="index.html">HOME</a></li>
+                  <li class="m"><a href="">MORE</a></li>
+                  <li class="l"><a href="accets/Login.html">LOGIN</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <h2>Sign Up</h2>
+        <form action="process_signup.php" method="post">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="confirm_password">Confirm Password:</label>
+            <input type="password" id="confirm_password" name="confirm_password" required>
+
+            <input type="submit" value="Sign Up">
+        </form>
+    </div>
+</body>
+</html>

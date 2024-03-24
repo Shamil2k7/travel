@@ -1,0 +1,261 @@
+*{
+    text-decoration: none;
+}
+
+body{
+    background-color:rgb(235, 228, 226);
+}
+
+.Bar{
+    background: rgb(164, 178, 34);
+    padding-top: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+}
+
+.div1{
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+
+}
+
+.div-log a {
+    font-size: 35px; 
+    font-weight: 600; 
+    color: rgb(0, 0, 0);
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    align-self: end;
+   
+}
+
+.h,.l,.m {
+    padding-right: 100px;
+    size: 10px;
+    
+}
+.m  a {
+    color: black;
+    
+}
+.h a {
+    color: black;
+}
+.l a {
+    color: black;
+}
+.contant {
+    display: flex; 
+    flex-direction: row;
+    background-image: url(https://www.google.com/imgres?imgurl=https%3A%2F%2Fimg.freepik.com%2Fpremium-photo%2Fillustration-famous-monument-world_117023-16.jpg&tbnid=PKYBAgEdpjibgM&vet=12ahUKEwjfqMO3koqFAxVdmGMGHYGaBgoQMygjegUIARC2AQ..i&imgrefurl=https%3A%2F%2Fwww.freepik.com%2Fphotos%2Ftravel&docid=v1nUfXs5tMel2M&w=626&h=417&q=trvaelling%20hd%20IMG&ved=2ahUKEwjfqMO3koqFAxVdmGMGHYGaBgoQMygjegUIARC2AQ);
+}
+.part-1 {
+    padding-top: 100px;
+    padding-left: 100px ;
+}
+.part-2 {
+    padding-left: 200px;
+    padding-top: 100px;
+}
+.part-2 img {
+    border: 10px;
+    border-color: black;
+    border-radius: 20px;
+}
+h1 {
+    color: rgb(0, 0, 0);
+    size: 20px;
+}
+h2 {
+    letter-spacing: 1px;
+}
+
+.contant-1 {
+    display: flex ;
+    flex-direction: row ;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border: 20px;
+    border-radius: 20px;
+    background-color:  rgb(164, 178, 34);
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+
+
+}
+.maths {
+    background-color: rgb(164, 178, 34);
+    border: 20px;
+    border-radius: 20px;
+    width: 25%;
+    margin-right: 10px;
+    
+}
+.maths img {
+    padding-top: 10px;
+    width: 250px;
+    border-radius: 20px;
+}
+.chemistry {
+    background-color: rgb(164, 178, 34);
+    border: 2px;
+    border-radius: 20px;
+    width: 25%;
+    margin-right: 10px;
+}
+.chemistry img {
+    width: 250px;
+    padding-top: 10px;
+    border-radius: 20px;
+}
+.physics {
+    background-color: rgb(164, 178, 34);
+    border: 2px;
+    border-radius: 20px;
+    width: 25%;
+    margin-right: 10px;
+}
+.physics img {
+    padding-top: 10px;
+    width: 250px;
+    border-radius: 20px;
+}
+.computerscince {
+    background-color:  rgb(164, 178, 34);
+    border: 2px;
+    border-radius: 20px;
+    width: 25%;
+}
+.computerscince img {
+    padding-top: 10px;
+    width: 250px;border-radius: 20px;
+}
+.contant-2 {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(164, 178, 34);
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+    border: 20px;
+    border-radius: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.div-1 {
+    text-align: center;
+}
+.div-2 {
+    display: flex;
+    flex-direction: row;
+}
+.div-3 {
+    display: flex;
+    flex-direction: row;
+    
+}
+.A,.B,.C,.D,.E,.F,.G,.H {
+    border: 20px;
+    border-radius: 20px;
+    width: 25%;
+    background-color:  rgb(164, 178, 34);
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.A,.B,.C,.D,.E,.F,.G,.H h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: Times New Roman;
+}
+.A,.B,.C,.D,.E,.F,.G,.H img {
+    padding-top: 20px;
+}
+.contant-3 img {
+    width: 100%;
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 20px;
+    box-sizing: 20px;
+    box-shadow: 10px;
+    background-color:  rgb(164, 178, 34);
+    border-radius: 20px;
+}
+.contant-4 {
+    display: flex;
+    flex-direction: row;
+}
+.point img {
+    width: 500px;
+}
+.login {
+    text-align: center;
+    width: 50%;
+}
+.login button {
+    width: 200px;
+    height: 50px;
+    border: 20px;
+    border-radius: 20px;
+}
+.login span {
+    color: yellowgreen;
+}
+.hh  {
+
+}
+
+/* === removing default button style ===*/
+.button {
+    margin: 0;
+    height: auto;
+    background: transparent;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* button styling */
+  .button {
+    --border-right: 6px;
+    --text-stroke-color: rgba(255,255,255,0.6);
+    --animation-color: rgb(164, 178, 34);
+    --fs-size: 2em;
+    letter-spacing: 3px;
+    text-decoration: none;
+    font-size: var(--fs-size);
+    font-family: "Arial";
+    position: relative;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke: 1px var(--text-stroke-color);
+  }
+  /* this is the text, when you hover on button */
+  .hover-text {
+    position: absolute;
+    box-sizing: border-box;
+    content: attr(data-text);
+    color: var(--animation-color);
+    width: 0%;
+    inset: 0;
+    border-right: var(--border-right) solid var(--animation-color);
+    overflow: hidden;
+    transition: 0.5s;
+    -webkit-text-stroke: 1px var(--animation-color);
+  }
+  /* hover */
+  .button:hover .hover-text {
+    width: 100%;
+    filter: drop-shadow(0 0 23px var(--animation-color))
+  }

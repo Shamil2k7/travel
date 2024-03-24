@@ -1,0 +1,80 @@
+*{
+    text-decoration: none;
+}
+
+body{
+    background-color:rgb(235, 228, 226);
+}
+
+.Bar{
+    background: rgb(164, 178, 34);
+    padding-top: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+}
+
+.div1{
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+
+}
+.div-log a {
+    font-size: 35px; 
+    font-weight: 600; 
+    color: rgb(0, 0, 0);
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    align-self: end;
+   
+}
+
+.h,.l,.m {
+    padding-right: 100px;
+    size: 10px;
+    
+}
+.m  a {
+    color: black;
+    
+}
+.h a {
+    color: black;
+}
+.l a {
+    color: black;
+}
+
+.container {
+    width: 300px;
+    margin: 100px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+input[type="submit"] {
+    background-color: #45a049;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+input[type="submit"]:hover {
+    background-color:rgb(164, 178, 34);
+}
